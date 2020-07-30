@@ -1,6 +1,6 @@
 // const { request, response } = require('express');
 
-const { info } = require('./env');
+const info = require('./env');
 
 const Pool = require('pg').Pool;
 
